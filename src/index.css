@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'antd/dist/reset.css';
+@layer base {
+  body {
+    @apply font-raleway;
+  }
+}
+
+.raleway-regular{
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
